@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="2" >
+    <test name="Test cases" >
+        <parameter name="Name" value="Abdul"></parameter>
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="Apple"></exclude>-->
+<!--                <exclude name="Lenovo"></exclude>-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+            <class name="testNg.Parametrisation"></class>
+<!--            <class name="testNg.Grouping"></class>-->
+<!--            <class name="testNg.Priority"> </class>-->
+<!--                <class name="testNg.SkipATest"> </class>-->
+<!--            <class name="testNg.Dependancy"> </class>-->
+        </classes>
+    </test>
+    <test name="test2">
+        <classes>
+            <class name="testNg.SkipATest">
+<!--                <methods>-->
+
+<!--                    <include name="">-->
+<!--                        <parameter name="username" value="adminparam"></parameter>-->
+<!--                        <parameter name="password" value="admin123param"></parameter>-->
+<!--                    </include>-->
+
+<!--                </methods>-->
+
+
+            </class>
+        </classes>
+    </test>
+</suite>
